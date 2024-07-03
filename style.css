@@ -1,0 +1,103 @@
+/* div {
+    height : 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    text-align: bottom;
+}
+#one {
+    height: 100px;
+    background-color: black;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: black;
+}
+
+button {
+    background-color: rgb(214, 189, 5);
+}
+
+#logo {
+    color: rgb(214, 189, 5);
+    text-size-adjust: 40px;
+}
+
+a {
+    margin: 100px;
+    padding-top: 50px ;
+    text-decoration: none;
+
+    
+}
+input::placeholder {
+    color: black; /* Set your desired color */
+}
+input[type="text"] {
+    color: black; /* Set your desired color */
+}
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#makegood {
+    background-color: aquamarine;
+}
+
+#good {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.382),rgba(255, 255, 0, 0.462),rgba(0, 0, 255, 0.462), );
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg);
+    background-size: cover;
+    
+}
+.content {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(96, 211, 220);
+    margin: 20px;
+    border: 2px solid blue;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 0;    
+}
+.underdown {
+    position: relative;
+    top:2px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.next {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(96, 211, 220);
+    margin: 20px;
+    border: 2px solid blue;
+}
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;       
+}
+p {
+    text-align: center;
+}
+ul {
+    text-align: center;
+}
+
+.lists {
+    display: inline-block;
+    margin-right: 300px;
+}
