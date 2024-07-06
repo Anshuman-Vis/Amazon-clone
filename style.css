@@ -18,7 +18,9 @@
 
 #navbar {
     height: 60px;
+    width: 100%;
     background-color: black;
+    position: fixed;
 }
 
 button {
@@ -28,9 +30,10 @@ button {
 #logo {
     color: rgb(214, 189, 5);
     text-size-adjust: 40px;
+    margin-top: 50px;
 }
 
-a {
+.ancor {
     margin: 100px;
     padding-top: 50px ;
     text-decoration: none;
@@ -50,12 +53,19 @@ img {
 }
 #makegood {
     background-color: aquamarine;
+    position: relative;
+    top: 65px;
 }
 
 #good {
     background-image: linear-gradient(rgba(255, 0, 0, 0.382),rgba(255, 255, 0, 0.462),rgba(0, 0, 255, 0.462), );
     background-image: url(https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg);
     background-size: cover;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    may be use later  */
+
     
 }
 .content {
@@ -100,4 +110,8 @@ ul {
 .lists {
     display: inline-block;
     margin-right: 300px;
+}
+
+a {
+    text-decoration: none;
 }
